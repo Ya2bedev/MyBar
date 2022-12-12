@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Freehand&family=Josefin+Sans:wght@200&family=Kantumruy:wght@300&family=Moul&family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Poppins:wght@200&family=Rubik+Vinyl&family=Source+Sans+Pro:wght@200&family=Squada+One&family=Teko:wght@500&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: mon;
+}
+.menu {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../image/bgc.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.YA {
+  color: #ea1538;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.Logo {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #ea1538;
+  transform: 0.3s;
+}
+.Login {
+  background-color: #ea1538;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.2s;
+}
+.Login:hover {
+  transform: scale(1.2);
+}
+h1 {
+  letter-spacing: 0.5rem;
+  font-family: KonKhmer;
+  justify-content: center;
+  text-align: center;
+  font-size: 35px;
+  color: #fffffff3;
+  margin-top: 12%;
+  cursor: pointer;
+}
+span {
+  color: #ea1538;
+  font-size: 25px;
+  transition: 0.1s;
+}
+h1:hover span {
+  font-size: 30px;
+  transition: 0, 5s;
+  color: #ea1538;
+  text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+}
+#getStart {
+  background-color: #ffffff;
+  color: #ea1538;
+  margin-top: 50px;
+  margin-left: 45%;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.1s;
+}
+#getStart:hover {
+  transform: scale(1.1);
+}
+.navbar a.active {
+  color: #ea1538;
+}
+/* ======================== */
+/* ABOUT */
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url("../image/Backg.png");
+background-size: cover;
+background-position: center;
+  background-color: #3a3636;
+}
+.act a.active {
+  color: #ffffff;
+}
+.act {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5rem;
+}
+/*  ===================== */
+.nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.nav ul li a {
+  color: #ea1538;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav ul li a:hover {
+  color: #ffffff;
+  transform: 0.3s;
+}
+/* ==================== */
+.profile {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  width: 150px;
+
+}
+.center-col {
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.center-col h2 {
+  padding: 0 15px 0 15px;
+  font-family: khmersurin;
+  color: #ea1538;
+}
+.center-col h2:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+.P-head {
+  margin-top: -20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  width: 75%;
+  text-align: justify;
+  color: #ffffff;
+}
+/* ===========================================================> Center-col */
+.H4 {
+  text-align: center;
+  font-size: 1.7rem;
+  justify-content: center;
+  font-family: khmersurin;
+  width: 75%;
+  color: #ffffff;
+}
+.H4 .Chhaya {
+  font-family: KonKhmer;
+  color: #ff5858;
+}
+.H4 .Chhaya:hover {
+  color: #ffffff;
+}
+.H4 .bbu {
+  font-family: KonKhmer;
+  color: #ff5858;
+}
+.H4 .bbu:hover {
+  color: #4facfe;
+}
+
+/* ==========================================================> Profile-Body */
+.profile-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.profile-body img {
+  margin: 1rem 5rem 1rem 5rem;
+  width: 150px;
+  flex-direction: row;
+  align-items: center;
+}
+.P-body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  width: 75%;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.A-center {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.A-p-h {
+  font-family: khmersurin;
+  font-size: 1rem;
+  width: 70%;
+  text-align: justify;
+  color: #4facfe;
+}
+@media (max-width: 600px) {
+  .profile-body {
+    flex-direction: column;
+  }
+  #h1-size b {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #GOOD {
+    font-size: 1.2rem;
+  }
+  .center-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
