@@ -100,9 +100,9 @@ h1:hover span {
 /* ABOUT */
 .container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url("../image/Backg.png");
-background-size: cover;
-background-position: center;
+    url("../image/Backg.png");
+  background-size: cover;
+  background-position: center;
   background-color: #3a3636;
 }
 .act a.active {
@@ -137,7 +137,6 @@ background-position: center;
   justify-content: center;
   margin: 2rem;
   width: 150px;
-
 }
 .center-col {
   padding-bottom: 3rem;
